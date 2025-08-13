@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(../img/1347657.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#navbar img {
+  height: 60px;
+  margin-top: 55px;
+  margin-left: 55px;
+}
+
+#container {
+  display: flex;
+  max-width: 92%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: end;
+  min-height: 100%;
+  gap: 18rem;
+}
+
+#title {
+  text-transform: uppercase;
+  color: #fff;
+  width: 40vw;
+  height: 70vh;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: end;
+  margin-left: 5vw;
+}
+
+#title h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  margin-left: 2rem;
+}
+
+#form-container {
+  min-height: 73vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-width: 20vw;
+  max-width: 30vw;
+  text-align: center;
+  position: relative;
+}
+
+#form-container form {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#form-container h2 {
+  padding: 0.3rem;
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: 70px;
+}
+
+#form-container h4 {
+  color: #979797;
+  font-size: 22px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+#form-container input[type="email"] {
+  width: 100%;
+  background-color: #f5f5f5;
+  height: 3rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+#form-container input[type="email"]:hover {
+    border: 2px solid #e2e1e1;
+}
+
+#form-container input[type="email"]::placeholder {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+#form-container input[type="email"]:focus::placeholder {
+  color: transparent;
+}
+
+#checkbox {
+  text-align: left;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-weight: 100;
+}
+
+#checkbox span {
+  color: #3d3d3d;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  font-weight: 600;
+  width: 20vw;
+}
+
+#checkbox > input {
+  appearance: none;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  background-color: #e2e1e1;
+  border-radius: 0.2rem;
+  transition: .4s;
+}
+
+#checkbox > input:checked {
+    background-color: #ca1111;
+}
+
+#checkbox > input:checked::before {
+    content: "✔";
+    font-size: 12px;
+    color: #fff;
+    font-weight: 900;
+    position: absolute;
+    left: 4px;
+}
+
+#options {
+    margin-top: 2rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: .7rem;
+}
+
+#buttons button {
+  width: 5vw;
+  min-height: 3.8vh;
+  max-height: 3.8vh;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttons img {
+  max-height: 2.5vh;
+}
+
+#buttons .facebook:hover {
+  background-color: #0070cc;
+}
+
+.facebook{
+  background-color: #198dec;
+}
+
+#buttons .google{
+  border: 2px solid #f1f0f0;
+  background-color: #fff;
+}
+#buttons .google:hover {
+  background-color: #f1f0f0;
+}
+#buttons .apple:hover {
+  opacity: .8;
+}
+
+.apple {
+  background-color: #000;
+}
+.xbox {
+  background-color: green;
+}
+#buttons .xbox:hover {
+  background-color: rgb(2, 94, 2);
+}
+.playstation {
+  background-color: #093ba8;
+}
+#buttons .playstation:hover {
+  background-color: #052d83;
+}
+
+.no-active {
+  margin-top: 9rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  border: 2px solid #e4e2e2;
+  background-color: #fff;
+  cursor: no-drop;
+  font-size: 30px;
+  color: #e2e1e1;
+}
+
+#final-question {
+  margin-top: 1rem;
+  opacity: .7;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+#final-question:hover {
+  opacity: 1;
+}
+
+.active {
+  margin-top: 9rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ca1111;
+  cursor: pointer;
+  font-size: 30px;
+  color: #fff;
+}
+
+.active:hover {
+  background-color: #d81010;
+}
