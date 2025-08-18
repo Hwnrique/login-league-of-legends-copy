@@ -1,9 +1,8 @@
 <h1 align="center" style="border=none">Bem-Vindo ao Rift!</h1>
 
-Se você é como eu e gosta bastante de jogos, por que não dá uma olhadinha no meu mais novo projeto?
-Uma Cópia da página de cadastro da RiotGames, empresa conhecida por fazer vários jogos como League of Legends e Valorant.
+<h3 align="center">Se você é como eu e gosta bastante de jogos, por que não dá uma olhadinha no meu mais novo projeto?</h3>
 
-O intuito desse site foi para revisar conhecimentos básicos de programação web e testar estilos novos.
+<p align="center">Uma Cópia da página de cadastro da RiotGames, empresa conhecida por fazer vários jogos como League of Legends e Valorant. O site foi feito para revisar conhecimentos básicos de programação web e testar estilos novos, como a estilização de uma checkbox.</p>
 
 <img align="center" alt="gifz" height="400" width="1000em" src="https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b"/> 
 
